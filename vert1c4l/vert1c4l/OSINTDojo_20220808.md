@@ -43,6 +43,7 @@ So oother than being an Operating System used by **Most Best Korea**, is there a
 - For some reason, there is a subreddit dedicated to the Red Star OS.  Actually, this is the internet, so of course there is (https://www.reddit.com/r/RedStarOS/)
 - Its User Interface is remarkably similar to that of the Mac OS X UI (https://robert.hawdon.net/blog/wp-content/uploads/2016/06/VirtualBox_Red_Star_3_25_06_2016_15_20_53.png)
 - It can probably run Steam (https://gamelust.com/news/investigation-steam-account-north-korea/, https://nerfwire.com/gamer-girl-win-kim-yo-jong-to-be-first-north-korean-woman-with-a-steam-account/)
+
 And the list could go on and on.
 
 # Final Answers
