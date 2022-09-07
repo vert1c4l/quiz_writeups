@@ -17,13 +17,13 @@ This is my first write up for a contract from [Tiberian Order](https://tiberiano
 
 After unzipping the file provided with the challenge, I open the pcap file with [Wireshark](https://www.wireshark.org/).  As stated on their site, *Wireshark is a network protocol analyzer. It lets you capture and interactively browse the traffic running on a computer network.*
 
-The on-the-wire.pcapng file has captured 18943 packets, so this will be like trying to find a needle in a stack of nails.  But every investigation has to start somewhere, so I start by looking at the Hyper Text Transfer Protocol Traffic (HTTP).
+The on-the-wire.pcapng file has captured 18943 packets, so this will be like trying to find a needle in a stack of nails.  But every investigation has to start somewhere, so I start by looking at the Hyper Text Transfer Protocol (HTTP) traffic, as this is usually in plain text (not encrypted).
 
 Using the filter bar, I enter `http` and reduce the amount of packets down to 13.  If I'm lucky, the answer will be in one of these packets.
 
 ![image](https://user-images.githubusercontent.com/101227395/188992776-7758d04b-2060-4bc5-a3a8-a308f15d37c0.png)
 
-But lady luck is fickle and I find nothing of use except an excellent time waster in the form of [The Useless Web](https://theuselessweb.com), where I stare at a [Pug In A Rug](https://puginarug.com/) for about 5 minutes and become a Priest of the Pug Rug.  **Worth it.**
+But Lady Luck is fickle and I find nothing of use except an excellent time waster in the form of [The Useless Web](https://theuselessweb.com), where I stare at a [Pug In A Rug](https://puginarug.com/) for about 5 minutes and become a Priest of the Pug Rug.  **Worth it.**
 
 # Step 2 - Diving Deeper
 
