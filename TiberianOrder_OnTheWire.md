@@ -9,13 +9,13 @@ This is my first write up for a contract from [Tiberian Order](https://tiberiano
 
 **Task:** Given the following [PCAP](https://tiberianorder.com/wp-content/contracts/items/on-the-wire.zip), find the unusual way that a coorupt politician has been communicating with their handlers.
 
-**Initial Observations:**  Given the name of the contract and the image of a shark (whom I've lovingly named Bruce in honor of the movie *Jaws*), it is highly likely that this will be a network forensics challenge.  The packet capture file provided by The Order confirms this.
+**Initial Observations:**  Given the name of the contract and the image of a shark (whom I've lovingly named Bruce in honor of the movie *Jaws*), it is highly likely that this will be a network forensics challenge.  The packet capture (or pcap, for short) file provided by The Order confirms this.
 
 ---
 
 # Step 1 - Wading the Waters
 
-After unzipping the file provided with the challenge, I open the pcap file with [Wireshark](https://www.wireshark.org/).  As stated on their site, *a network protocol analyzer. It lets you capture and interactively browse the traffic running on a computer network.*
+After unzipping the file provided with the challenge, I open the pcap file with [Wireshark](https://www.wireshark.org/).  As stated on their site, *Wireshark is a network protocol analyzer. It lets you capture and interactively browse the traffic running on a computer network.*
 
 The on-the-wire.pcapng file has captured 18943 packets, so this will be like trying to find a needle in a stack of nails.  But every investigation has to start somewhere, so I start by looking at the Hyper Text Transfer Protocol Traffic (HTTP).
 
