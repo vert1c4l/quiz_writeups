@@ -46,7 +46,8 @@ So I try a different approach by inspecting the Domain Name System (DNS) traffic
 # Step 4 - The Deep
 
 Eventually, I find a Uniform Resource Locator (URL) that looks unusual: https://pastebin.com/raw/GAwEkrN0.  Pastebin has an interesting [history](https://www.zdnet.com/article/pastebin-to-hunt-for-hacker-pastes-anonymous-cries-censorship/) and is a common location for people to "dump" sensitive information, like emails or credit cards.  This paste only gives me some text, which is a shortened URL: https://bit.ly/3RpvvCc.  Following this, I find Bruce with his mouth wide open and the challenge is complete!
-![image](https://user-images.githubusercontent.com/101227395/188996441-ce75d55a-dd2a-457e-826a-378ef8ae3a75.png)
+![FullShark](https://user-images.githubusercontent.com/101227395/189102657-6c92ec3f-be6a-4512-a0f3-992b6d7b43c0.png)
+
 
 I wonder how the other Agents are faring in their assigned tasks...
  
